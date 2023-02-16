@@ -13,6 +13,7 @@ function installProductivityApps {
     winget install --accept-package-agreements --accept-source-agreements -e --id Mozilla.Firefox;
     winget install --accept-package-agreements --accept-source-agreements -e --id Mega.MEGASync;
     winget install --accept-package-agreements --accept-source-agreements -e --id 7zip.7zip;
+    winget install --accept-package-agreements --accept-source-agreements -e --id M2Team.NanaZip; 
     winget install --accept-package-agreements --accept-source-agreements -e --id Corsair.iCUE.4;
     winget install --accept-package-agreements --accept-source-agreements -e --id CPUID.CPU-Z.GBT;
     winget install --accept-package-agreements --accept-source-agreements -e --id Samsung.DeX;
