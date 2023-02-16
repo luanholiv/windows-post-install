@@ -10,6 +10,7 @@ function updateExecutionPolicy {
 
 function installProductivityApps {
     winget install --accept-package-agreements --accept-source-agreements -e --id Bitwarden.Bitwarden;
+    winget install --accept-package-agreements --accept-source-agreements -e --id Twilio.Authy
     winget install --accept-package-agreements --accept-source-agreements -e --id Mozilla.Firefox;
     winget install --accept-package-agreements --accept-source-agreements -e --id Mega.MEGASync;
     winget install --accept-package-agreements --accept-source-agreements -e --id 7zip.7zip;
