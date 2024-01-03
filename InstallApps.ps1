@@ -44,6 +44,7 @@ function installDevApps {
     winget install Microsoft.DotNet.SDK.8;
     winget install Microsoft.DotNet.Runtime.8;
     winget install Microsoft.DotNet.AspNetCore.8;
+    winget install -e --id Postman.Postman
     
     Write-Output "Ambiente de dev instalado."
 }
