@@ -41,6 +41,9 @@ function installDevApps {
     winget install --accept-package-agreements --accept-source-agreements -e --id Git.Git;
     winget install --accept-package-agreements --accept-source-agreements -e --id Microsoft.VisualStudioCode -l 'C:\Program Files\Visual Studio Code';
     winget install --accept-package-agreements --accept-source-agreements -e --id Microsoft.PowerToys;
+    winget install Microsoft.DotNet.SDK.8;
+    winget install Microsoft.DotNet.Runtime.8;
+    winget install Microsoft.DotNet.AspNetCore.8;
     
     Write-Output "Ambiente de dev instalado."
 }
